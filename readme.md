@@ -14,6 +14,6 @@
 <hr/>
   <p><strong>Tech stack: </strong></p>
   <ul>
-    <li>Maven 3.6.3 and JDK 11 for better compability</li>
-    <li>JUNIT for testing</li>
+    <li>Maven 3.6.3 and JDK 11 for better compitability</li>
+    <li>JUNIT 5.8.2 for testing</li>
   </ul>
