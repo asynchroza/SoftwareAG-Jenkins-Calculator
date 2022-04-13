@@ -9,17 +9,17 @@ public class App {
     private static HashSet<String> operation_set = new HashSet<>(){{add("+"); add("-"); add("*"); add("/"); add("root"); add("log"); add("^"); add("%");}};
 
     public static double getAnswer(double first_param, String operation, double second_param){
-        return switch (operation) {
-            case "+" -> first_param + second_param;
-            case "-" -> first_param - second_param;
-            case "*" -> first_param * second_param;
-            case "/" -> first_param / second_param;
-            case "%" -> first_param % second_param;
-            case "^" -> Math.pow(first_param, second_param);
-            case "root" -> Math.pow(second_param, 1.0 / first_param);
-            case "log" -> Math.log(second_param) / Math.log(first_param);
-            default -> 0;
-        };
+        switch (operation) {
+            case "+": return first_param + second_param;
+            case "-": return first_param - second_param;
+            case "*": return first_param * second_param;
+            case "/": return first_param / second_param;
+            case "%": return first_param % second_param;
+            case "^": return Math.pow(first_param, second_param);
+            case "root": return Math.pow(second_param, 1.0 / first_param);
+            case "log": return Math.log(second_param) / Math.log(first_param);
+            default: return 0;
+        }
     }
 
     public static void Execute() {

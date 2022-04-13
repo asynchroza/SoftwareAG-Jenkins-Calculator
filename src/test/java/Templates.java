@@ -11,17 +11,25 @@ public class Templates {
 
     public static String simpleArithmeticsStringBuilder(double fp, double sp, String operation) {
 
-        double answer = switch (operation) {
-            case "+" -> fp + sp;
-            case "-" -> fp - sp;
-            case "*" -> fp * sp;
-            case "/" -> fp / sp;
-            case "%" -> fp % sp;
-            case "^" -> Math.pow(fp, sp);
-            case "root" -> Math.pow(sp, 1.0 / fp);
-            case "log" -> Math.log(sp) / Math.log(fp);
-            default -> Double.NaN;
-        };
+        double answer = Double.NaN;
+        switch(operation){
+            case "+": answer = fp + sp;
+            break;
+            case "-": answer = fp - sp;
+            break;
+            case "*": answer = fp * sp;
+            break;
+            case "/": answer = fp / sp;
+            break;
+            case "%": answer = fp % sp;
+            break;
+            case "^": answer = Math.pow(fp, sp);
+            break;
+            case "root": answer = Math.pow(sp, 1.0 / fp);
+            break;
+            case "log": answer = Math.log(sp)/Math.log(fp);
+            break;
+        }
 
         String expectedMessage = templateOutput + decimalFormatter.format(fp) + " " + operation + " " +
                 decimalFormatter.format(sp) + " = " + decimalFormatter.format(answer);
