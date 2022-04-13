@@ -7,7 +7,7 @@
   <a href="https://ibb.co/ZGw59RL"><img src="https://i.ibb.co/Ntk5RgV/image.png" alt="image" border="0"></a>
   <p>Scheduled as <em>0 8 * * *</em></p>
   <br/>
-  <p><strong>CI on CircleCI</strong></p>
+  <p><strong>CI on CircleCI merged with master branch for triple integration</strong></p>
   <a href="https://ibb.co/q96mcbG"><img src="https://i.ibb.co/S0SVMqT/image.png" alt="image" border="0"></a>
   
 <hr/>
