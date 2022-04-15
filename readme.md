@@ -1,9 +1,12 @@
 <h2>Calculator on CI Jenkins pipeline</h2>
 <hr/>
-<p> Bash script to run the program with input from the command-line and then run the tests ** </p>
+<p> Bash script to run the program with input from the command-line and then run the tests * </p>
 <a href="https://ibb.co/kDhwtPr"><img src="https://i.ibb.co/3F0jnP8/image.png" alt="image" border="0"></a>
-<li> Should be run in root directory </li>
-<li> If you pass * as an argument you should pass it with quotes, because the asterics is kind of a wildcard in bash </li>
+
+<p> Bash script reading variables from text_input.txt and passing them as input to the program ** </p>
+<li> *Should be run in root directory </li>
+<li> **Essentially, they are the same script but one is sourcing the input from a text file and the other one is getting them as passed arguments </li>
+<li> <strong>NB!<strong> If you pass * as an argument you should pass it with quotes, because the asterics is kind of a wildcard in bash </li>
 <hr/>
 <p> Running the script after build phase during CI on Jenkins </p>
 [Imgur](https://imgur.com/i11kcAC)
