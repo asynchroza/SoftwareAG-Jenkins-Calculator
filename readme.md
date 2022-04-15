@@ -8,7 +8,7 @@
 <br/>
 <p> * Should be run in root directory </p>
 <p> ** Essentially, they are the same script but one is sourcing the input from a text file and the other one is getting it as passed arguments </p>
-<li> <strong>NB!<strong> If you pass * as an argument you should pass it with quotes, because the asterics is kind of a wildcard in bash </li>
+<li> <strong>NB!</strong> If you pass * as an argument you should pass it with quotes, because the asterics is kind of a wildcard in bash </li>
 <hr/>
   <h3>Test coverage:</h3>
   <a href="https://imgbb.com/"><img src="https://i.ibb.co/xq2SB2J/image.png" alt="image" border="0"></a>
