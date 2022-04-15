@@ -13,10 +13,10 @@
   <li>Scheduled as <em>0 8 * * *</em></li>
   <br/>
   <hr/>
-  <p><strong>CircleCI</strong></p>
+  <h3>CircleCI</h3>
   <a href="https://ibb.co/q96mcbG"><img src="https://i.ibb.co/S0SVMqT/image.png" alt="image" border="0"></a>
 <hr/>
-  <h3><strong>Tech stack: </h3>
+  <h3>Tech stack: </h3>
   <ul>
     <li>Maven 3.6.3 and JDK 11 for better compitability</li>
     <li>JUNIT 5.8.2 for testing</li>
