@@ -15,6 +15,7 @@
 <hr/>
   <h3>Jenkins CI </h3>
   <a href="https://ibb.co/ZGw59RL"><img src="https://i.ibb.co/Ntk5RgV/image.png" alt="image" border="0"></a>
+  <p> One of deployments is set to build with bash script (mvn-custom.sh) and the other one runs one of the previously mentioned bash scripts after it had been built</p>
   <li>Scheduled as <em>0 8 * * *</em></li>
   <br/>
   <hr/>
