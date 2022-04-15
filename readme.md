@@ -4,8 +4,8 @@
 <a href="https://ibb.co/kDhwtPr"><img src="https://i.ibb.co/3F0jnP8/image.png" alt="image" border="0"></a>
 
 <p> Bash script reading variables from text_input.txt and passing them as input to the program ** </p>
-<p> *Should be run in root directory </p>
-<p> **Essentially, they are the same script but one is sourcing the input from a text file and the other one is getting them as passed arguments </p>
+<p> * Should be run in root directory </p>
+<p> ** Essentially, they are the same script but one is sourcing the input from a text file and the other one is getting them as passed arguments </p>
 <li> <strong>NB!<strong> If you pass * as an argument you should pass it with quotes, because the asterics is kind of a wildcard in bash </li>
 <hr/>
 <p> Running the script after build phase during CI on Jenkins </p>
