@@ -35,7 +35,7 @@ public class App {
             scanner.close();
 
             double answer = getAnswer(first_param, operation, second_param);
-            DecimalFormat decimalFormatter = new DecimalFormat("###");
+            DecimalFormat decimalFormatter = new DecimalFormat();
             if(operation.equals("root")){
                 System.out.println("The " + decimalFormatter.format(first_param) +" root of " + decimalFormatter.format(second_param) + " = " + decimalFormatter.format(answer));
             } else if(operation.equals("log")){

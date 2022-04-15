@@ -7,7 +7,7 @@ public class Templates {
     public static String templateOutput = "Enter first parameter: \nEnter operation:" +
             " \nEnter second parameter: \n";
 
-    private static DecimalFormat decimalFormatter = new DecimalFormat("###");
+    public static DecimalFormat decimalFormatter = new DecimalFormat();
 
     public static String simpleArithmeticsStringBuilder(double fp, double sp, String operation) {
 

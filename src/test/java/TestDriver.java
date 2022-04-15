@@ -11,8 +11,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class TestDriver {
 
-    private static DecimalFormat decimalFormatter = new DecimalFormat("###");
-
     // testing unsupported formats
     @Test
     // first parameter as a string
@@ -170,8 +168,8 @@ public class TestDriver {
         System.setIn(in);
         System.setOut(new PrintStream(outputStreamCaptor));
         App.Execute();
-        String expectedMessage = Templates.templateOutput + "The " + decimalFormatter.format(fp) +" root of " + decimalFormatter.format(sp) +
-                " = " + decimalFormatter.format(Math.pow(sp,1.0/fp));
+        String expectedMessage = Templates.templateOutput + "The " + Templates.decimalFormatter.format(fp) +" root of " + Templates.decimalFormatter.format(sp) +
+                " = " + Templates.decimalFormatter.format(Math.pow(sp,1.0/fp));
         assertEquals(expectedMessage, outputStreamCaptor.toString().trim());
     }
 
@@ -185,8 +183,8 @@ public class TestDriver {
         System.setIn(in);
         System.setOut(new PrintStream(outputStreamCaptor));
         App.Execute();
-        String expectedMessage = Templates.templateOutput + "log" + decimalFormatter.format(fp) +"(" + decimalFormatter.format(sp) +
-                ") = " + decimalFormatter.format(Math.log(sp)/Math.log(fp));
+        String expectedMessage = Templates.templateOutput + "log" + Templates.decimalFormatter.format(fp) +"(" + Templates.decimalFormatter.format(sp) +
+                ") = " + Templates.decimalFormatter.format(Math.log(sp)/Math.log(fp));
         assertEquals(expectedMessage, outputStreamCaptor.toString().trim());
     }
 
@@ -208,8 +206,8 @@ public class TestDriver {
         System.setOut(new PrintStream(outputStreamCaptor));
 
         App.main(new String[]{"arg1", "arg2"});
-        String expectedMessage = Templates.templateOutput + "log" + decimalFormatter.format(fp) +"(" + decimalFormatter.format(sp) +
-                ") = " + decimalFormatter.format(Math.log(sp)/Math.log(fp));
+        String expectedMessage = Templates.templateOutput + "log" + Templates.decimalFormatter.format(fp) +"(" + Templates.decimalFormatter.format(sp) +
+                ") = " + Templates.decimalFormatter.format(Math.log(sp)/Math.log(fp));
         assertEquals(expectedMessage, outputStreamCaptor.toString().trim());
     }
 
