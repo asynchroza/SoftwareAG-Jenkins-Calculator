@@ -5,6 +5,9 @@
 <li> Should be run in root directory </li>
 <li> If you pass * as an argument you should pass it with quotes, because the asterics is kind of a wildcard in bash </li>
 <hr/>
+<p> Running the script after build phase during CI on Jenkins </p>
+<img src="https://pasteboard.co/7AScUOEgf14x.png"/>
+<hr/>
   <h3>Test coverage:</h3>
   <a href="https://imgbb.com/"><img src="https://i.ibb.co/xq2SB2J/image.png" alt="image" border="0"></a>
 <hr/>
