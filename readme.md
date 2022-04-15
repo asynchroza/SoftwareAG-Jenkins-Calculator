@@ -6,7 +6,7 @@
 <li> If you pass * as an argument you should pass it with quotes, because the asterics is kind of a wildcard in bash </li>
 <hr/>
 <p> Running the script after build phase during CI on Jenkins </p>
-<blockquote class="imgur-embed-pub" lang="en" data-id="SciMXYo"><a href="https://imgur.com/SciMXYo">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<img src="https://imgur.com/SciMXYo" alt="image" border="0"/>
 <hr/>
   <h3>Test coverage:</h3>
   <a href="https://imgbb.com/"><img src="https://i.ibb.co/xq2SB2J/image.png" alt="image" border="0"></a>
