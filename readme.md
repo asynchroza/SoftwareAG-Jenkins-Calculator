@@ -1,4 +1,4 @@
-<h2>Calculator on CI Jenkins pipeline</h2>
+<h2>Simple calculator program on Jenkins pipeline</h2>
 <hr/>
 <p> Bash script to run the program with input from the command-line and then run the tests * </p>
 <a href="https://ibb.co/kDhwtPr"><img src="https://i.ibb.co/3F0jnP8/image.png" alt="image" border="0"></a>
