@@ -75,6 +75,36 @@ public class TestDriver {
     }
 
     @Test
+    public void unsupportedDivisionOperations(){
+        String operation = "/";
+        double fp = 10L;
+        double sp = 0L;
+            ByteArrayInputStream in = new ByteArrayInputStream((fp+"\n"+operation+"\n"+sp).getBytes());
+            System.setIn(in);
+            ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+            System.setOut(new PrintStream(outputStream));
+            App.Execute();
+            String expectedMessage = "Enter first parameter: \nEnter operation: " +
+                "\nEnter second parameter: \nUnsupported format";
+        assertEquals(expectedMessage, outputStream.toString().trim());
+    }
+
+    @Test
+    public void unsupportedRootOperations(){
+        String operation = "root";
+        double fp = 0L;
+        double sp = 10L;
+        ByteArrayInputStream in = new ByteArrayInputStream((fp+"\n"+operation+"\n"+sp).getBytes());
+        System.setIn(in);
+        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outputStream));
+        App.Execute();
+        String expectedMessage = "Enter first parameter: \nEnter operation: " +
+                "\nEnter second parameter: \nUnsupported format";
+        assertEquals(expectedMessage, outputStream.toString().trim());
+    }
+
+    @Test
     public void testAddition() {
         String operation = "+";
         double fp = 754430342.3232;

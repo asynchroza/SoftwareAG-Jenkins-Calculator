@@ -32,6 +32,8 @@ public class App {
             if (!operation_set.contains(operation)) throw new Exception();
             System.out.println("Enter second parameter: ");
             double second_param = scanner.nextDouble();
+            if((second_param == 0 && operation.equals("/"))||
+            first_param == 0 && operation.equals("root")) throw new Exception();
             scanner.close();
 
             double answer = getAnswer(first_param, operation, second_param);
@@ -46,7 +48,6 @@ public class App {
 
         } catch (Exception e){
             System.out.println("Unsupported format");
-//            Execute();
         }
 
     }
