@@ -12,6 +12,6 @@ cd ..
 
 echo ------------------------------------------------------------------------------------------------------
 
-mvn veriti
+mvn verify
 
 echo SCRIPT HAS BEEN SUCCESSFULLY EXECUTED!
