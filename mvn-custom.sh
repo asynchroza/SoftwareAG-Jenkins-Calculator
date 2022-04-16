@@ -1,4 +1,5 @@
-#!/bin/bash
+/bin/sh -xe
+
 mvn clean && mvn validate && mvn compile && mvn compile && mvn test && mvn package -Dmaven.test.skip
 
 echo ------------------------------------------------------------------------------------------------------
@@ -10,8 +11,6 @@ cd ..
 
 echo ------------------------------------------------------------------------------------------------------
 
-mvn verify
+mvn veriti
 
 echo SCRIPT HAS BEEN SUCCESSFULLY EXECUTED!
-
-
