@@ -16,6 +16,7 @@
   <a href="https://ibb.co/ZGw59RL"><img src="https://i.ibb.co/Ntk5RgV/image.png" alt="image" border="0"></a>
   <p> One of the deployments is set to build with a bash script (mvn-custom.sh) and the other one runs one of the previously mentioned bash scripts after it had been built</p>
   <a href="https://ibb.co/bBkLNN7"><img src="https://i.ibb.co/MVmpPP9/image.png" alt="image" border="0"></a>
+  <a href="https://ibb.co/1n1DLyF"><img src="https://i.ibb.co/sPn02x8/image.png" alt="image" border="0"></a>
   <br/>
   <hr/>
   <h3>CircleCI</h3>
@@ -23,6 +24,6 @@
 <hr/>
   <h3>Tech stack: </h3>
   <ul>
-    <li>Maven 3.6.3 and JDK 11 for better compitability</li>
+    <li>Maven 3.8.5 (works with older versions of Maven too but triggers warnings) and JDK 11 for better compitability</li>
     <li>JUNIT 5.8.2 for testing</li>
   </ul>
