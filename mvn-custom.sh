@@ -1,4 +1,5 @@
-/bin/sh -xe
+#!/bin/sh
+set -e
 
 mvn clean && mvn validate && mvn compile && mvn compile && mvn test && mvn package -Dmaven.test.skip
 
