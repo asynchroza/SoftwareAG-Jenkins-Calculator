@@ -4,7 +4,6 @@
 <a href="https://ibb.co/kDhwtPr"><img src="https://i.ibb.co/3F0jnP8/image.png" alt="image" border="0"></a>
 <hr/>
 <p> Bash script reading variables from text_input.txt and passing them as input to the program ** used during CI </p>
-<a href="https://imgur.com/a/rXIn1e4"> The image uploading service I usually use was down for maintenance </a>
 <br/>
 <p> * Should be run in root directory </p>
 <p> ** Essentially, they are the same script but one is sourcing the input from a text file and the other one is getting it as passed arguments </p>
@@ -16,7 +15,7 @@
   <h3>Jenkins CI </h3>
   <a href="https://ibb.co/ZGw59RL"><img src="https://i.ibb.co/Ntk5RgV/image.png" alt="image" border="0"></a>
   <p> One of the deployments is set to build with a bash script (mvn-custom.sh) and the other one runs one of the previously mentioned bash scripts after it had been built</p>
-  <li>Scheduled as <em>0 8 * * *</em></li>
+  <a href="https://ibb.co/bBkLNN7"><img src="https://i.ibb.co/MVmpPP9/image.png" alt="image" border="0"></a>
   <br/>
   <hr/>
   <h3>CircleCI</h3>
