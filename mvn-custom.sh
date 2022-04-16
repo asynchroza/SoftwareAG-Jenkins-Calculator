@@ -1,7 +1,17 @@
 #!/bin/bash
-mvn clean && mvn validate && mvn compile && mvn compile -Dmaven.test.skip && mvn package -Dmaven.test.skip
+mvn clean && mvn validate && mvn compile && mvn compile && mvn test && mvn package -Dmaven.test.skip
+
 echo ------------------------------------------------------------------------------------------------------
-./read_text.sh
+
+source text_input.txt
+cd ./target
+echo -ne "${PARAM_ONE}\n${OPERATION}\n${PARAM_TWO}" | java -jar CalculatorJenkins-1.0-SNAPSHOT-jar-with-dependencies.jar
+cd ..
+
 echo ------------------------------------------------------------------------------------------------------
+
 mvn verify
-echo SCRIPT HAS BEEN EXECUTED!
+
+echo SCRIPT HAS BEEN SUCCESSFULLY EXECUTED!
+
+
