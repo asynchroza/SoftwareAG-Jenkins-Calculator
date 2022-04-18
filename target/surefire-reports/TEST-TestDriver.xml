@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestDriver" time="0.125" tests="17" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestDriver" time="0.206" tests="17" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/gdlssmrtyr/Documents/Projects/SoftwareAG-JenkinsCalculator/target/test-classes:/home/gdlssmrtyr/Documents/Projects/SoftwareAG-JenkinsCalculator/target/classes:/home/gdlssmrtyr/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/home/gdlssmrtyr/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/gdlssmrtyr/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/gdlssmrtyr/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/gdlssmrtyr/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/gdlssmrtyr/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/home/gdlssmrtyr/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/gdlssmrtyr/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:"/>
+    <property name="java.class.path" value="/home/gldssmrtyr/Documents/Projects/SoftwareAG-JenkinsCalculator/target/test-classes:/home/gldssmrtyr/Documents/Projects/SoftwareAG-JenkinsCalculator/target/classes:/home/gldssmrtyr/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/home/gldssmrtyr/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/gldssmrtyr/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/gldssmrtyr/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/gldssmrtyr/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/gldssmrtyr/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/home/gldssmrtyr/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/gldssmrtyr/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:"/>
     <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://ubuntu.com/"/>
@@ -16,37 +16,36 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/gdlssmrtyr/Documents/Projects/SoftwareAG-JenkinsCalculator/target/surefire/surefirebooter5360271047468912504.jar /home/gdlssmrtyr/Documents/Projects/SoftwareAG-JenkinsCalculator/target/surefire 2022-04-17T01-24-49_305-jvmRun1 surefire5019730359656092745tmp surefire_08641949064686023679tmp"/>
+    <property name="sun.java.command" value="/home/gldssmrtyr/Documents/Projects/SoftwareAG-JenkinsCalculator/target/surefire/surefirebooter10403465265798264165.jar /home/gldssmrtyr/Documents/Projects/SoftwareAG-JenkinsCalculator/target/surefire 2022-04-18T12-02-54_573-jvmRun1 surefire17838998707626063750tmp surefire_010878207147941062862tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/gdlssmrtyr/Documents/Projects/SoftwareAG-JenkinsCalculator/target/test-classes:/home/gdlssmrtyr/Documents/Projects/SoftwareAG-JenkinsCalculator/target/classes:/home/gdlssmrtyr/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/home/gdlssmrtyr/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/gdlssmrtyr/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/gdlssmrtyr/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/gdlssmrtyr/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/gdlssmrtyr/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/home/gdlssmrtyr/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/gdlssmrtyr/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:"/>
+    <property name="surefire.test.class.path" value="/home/gldssmrtyr/Documents/Projects/SoftwareAG-JenkinsCalculator/target/test-classes:/home/gldssmrtyr/Documents/Projects/SoftwareAG-JenkinsCalculator/target/classes:/home/gldssmrtyr/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/home/gldssmrtyr/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/gldssmrtyr/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/gldssmrtyr/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/gldssmrtyr/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/gldssmrtyr/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/home/gldssmrtyr/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/gldssmrtyr/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/home/gdlssmrtyr"/>
+    <property name="user.home" value="/home/gldssmrtyr"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2022-02-08"/>
     <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/home/gdlssmrtyr/Documents/Projects/SoftwareAG-JenkinsCalculator"/>
+    <property name="basedir" value="/home/gldssmrtyr/Documents/Projects/SoftwareAG-JenkinsCalculator"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/gdlssmrtyr/Documents/Projects/SoftwareAG-JenkinsCalculator/target/surefire/surefirebooter5360271047468912504.jar"/>
+    <property name="surefire.real.class.path" value="/home/gldssmrtyr/Documents/Projects/SoftwareAG-JenkinsCalculator/target/surefire/surefirebooter10403465265798264165.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.14.1+1-Ubuntu-0ubuntu1.20.04"/>
-    <property name="user.name" value="gdlssmrtyr"/>
+    <property name="user.name" value="gldssmrtyr"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="5.13.0-39-generic"/>
+    <property name="os.version" value="5.13.0-30-generic"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="localRepository" value="/home/gdlssmrtyr/.m2/repository"/>
+    <property name="localRepository" value="/home/gldssmrtyr/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
     <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="idea.version" value="2022.1"/>
     <property name="java.version" value="11.0.14.1"/>
-    <property name="user.dir" value="/home/gdlssmrtyr/Documents/Projects/SoftwareAG-JenkinsCalculator"/>
+    <property name="user.dir" value="/home/gldssmrtyr/Documents/Projects/SoftwareAG-JenkinsCalculator"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
@@ -58,21 +57,21 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testAppBadInput" classname="TestDriver" time="0.032"/>
-  <testcase name="unsupportedFormatFirstParameter" classname="TestDriver" time="0.002"/>
-  <testcase name="unsupportedFormatSecondParameter" classname="TestDriver" time="0.007"/>
-  <testcase name="testLog" classname="TestDriver" time="0.021"/>
-  <testcase name="testPower" classname="TestDriver" time="0.013"/>
-  <testcase name="testRoot" classname="TestDriver" time="0.003"/>
-  <testcase name="unsupportedDivisionOperations" classname="TestDriver" time="0.002"/>
-  <testcase name="unsupportedRootOperations" classname="TestDriver" time="0.01"/>
-  <testcase name="testMultiplication" classname="TestDriver" time="0.002"/>
-  <testcase name="testAddition" classname="TestDriver" time="0.001"/>
-  <testcase name="testAppGoodInput" classname="TestDriver" time="0.002"/>
-  <testcase name="unsupportedOperation" classname="TestDriver" time="0.005"/>
-  <testcase name="unsupportedFormatOperation" classname="TestDriver" time="0.001"/>
+  <testcase name="testAppBadInput" classname="TestDriver" time="0.05"/>
+  <testcase name="unsupportedFormatFirstParameter" classname="TestDriver" time="0.004"/>
+  <testcase name="unsupportedFormatSecondParameter" classname="TestDriver" time="0.013"/>
+  <testcase name="testLog" classname="TestDriver" time="0.046"/>
+  <testcase name="testPower" classname="TestDriver" time="0.028"/>
+  <testcase name="testRoot" classname="TestDriver" time="0.004"/>
+  <testcase name="unsupportedDivisionOperations" classname="TestDriver" time="0.003"/>
+  <testcase name="unsupportedRootOperations" classname="TestDriver" time="0.003"/>
+  <testcase name="testMultiplication" classname="TestDriver" time="0.016"/>
+  <testcase name="testAddition" classname="TestDriver" time="0.002"/>
+  <testcase name="testAppGoodInput" classname="TestDriver" time="0.003"/>
+  <testcase name="unsupportedOperation" classname="TestDriver" time="0.008"/>
+  <testcase name="unsupportedFormatOperation" classname="TestDriver" time="0.003"/>
   <testcase name="testModulus" classname="TestDriver" time="0.002"/>
-  <testcase name="testSwitchDefault" classname="TestDriver" time="0.001"/>
+  <testcase name="testSwitchDefault" classname="TestDriver" time="0"/>
   <testcase name="testDivision" classname="TestDriver" time="0.002"/>
   <testcase name="testSubtraction" classname="TestDriver" time="0.002"/>
 </testsuite>
