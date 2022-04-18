@@ -13,6 +13,5 @@ cd ..
 echo ------------------------------------------------------------------------------------------------------
 
 mvn verify
-#show tests
 
 echo SCRIPT HAS BEEN SUCCESSFULLY EXECUTED!
