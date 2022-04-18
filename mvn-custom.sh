@@ -13,6 +13,5 @@ cd ..
 echo ------------------------------------------------------------------------------------------------------
 
 mvn verify
-(ls|grep test)||echo "No tests found"
 
 echo SCRIPT HAS BEEN SUCCESSFULLY EXECUTED!
